@@ -1,4 +1,4 @@
-# docker-nuxtjs
+# Easy development NuxtJs with Docker
 
 ## Build Setup
 
@@ -41,7 +41,4 @@ make logs
 
 ### Open browser
 
-
-### Demo
-
-
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/26193890/172579596-b981748d-5e0c-486b-a8e1-999cdbabc9eb.png">
