@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    environment:
+      - HOST=0.0.0.0
+      - NODE_ENV=production
+    ports:
+      - "3002:8001"
+    tty: true

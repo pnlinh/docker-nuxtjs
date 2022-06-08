@@ -17,6 +17,17 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  /*
+   ** Nuxt target
+   ** See https://nuxtjs.org/api/configuration-target
+   */
+  target: 'static',
+
+  /**
+   * Source directory
+   */
+  srcDir: 'src/',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
