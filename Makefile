@@ -1,0 +1,35 @@
+install: build run
+
+build:
+	docker-compose build
+
+start: run
+
+run:
+	docker-compose up -d
+
+restart:
+	docker-compose restart
+
+stop:
+	docker-compose kill
+
+destroy:
+	docker-compose down
+
+logs:
+	docker-compose logs -ft
+
+shell:
+	docker-compose exec app sh
+
+root:
+	docker-compose exec app bash
+
+ps: status
+
+status:
+	docker-compose ps
+
+ip:
+	docker inspect reactjs | grep \"IPAddress\"
